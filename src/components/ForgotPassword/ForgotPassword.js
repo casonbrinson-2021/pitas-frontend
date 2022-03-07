@@ -19,6 +19,7 @@ function ForgotPassword() {
 
         setMessage('');
         setError('');
+        setSent(false);
         try {
             setLoading(true);
             await resetPassword(email);
@@ -29,10 +30,12 @@ function ForgotPassword() {
             setLoading(false);
             setMessage('Failed to send reset email');
             setSent(false);
+            setError('Failed to send reset email');
             console.log("failed to send reset email");
             return setError('Failed to send reset email');
         }
 
+        setEmail('');
         setLoading(false);
     }
 
