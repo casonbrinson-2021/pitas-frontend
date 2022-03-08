@@ -1,0 +1,54 @@
+.list-view-outer-container {
+    width: 100%;
+    min-width: fit-content;
+    height: 100vh;
+}
+
+.list-view-container {
+    background-color: #F0F2F4;
+    width: 85%;
+    min-width: fit-content;
+    height: 88%;
+    min-height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    margin-bottom: 10px;
+}
+
+.list-title {
+    color: #C5C5C5;
+}
+
+.column-btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-btn {
+    border: none;
+    background-color: #236E95;
+    width: 146px;
+    height: 32px;
+    border-radius: 8px;
+    color: white;
+}
+.project-column-btn,
+.status-column-btn {
+    margin-right: 72px;
+}
+
+.list-items-container-all {
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}

@@ -3,16 +3,17 @@ import './Dashboard.css';
 import { useAuth } from './../../contexts/AuthContext';
 
 //my components
-import Logout from './../Logout/Logout';
+import SideBar from './../SideBar/SideBar';
+import ListView from '../ListView/ListView';
 
 function Dashboard() {
 
-    const {currentUser, logout } = useAuth();
+    const { currentUser } = useAuth();
 
     return(
-        <div>
-            <h1>{currentUser.email}</h1>
-            <Logout />
+        <div className="dashboard-outer-container">
+            <SideBar />
+            <ListView />
         </div>
     );
 }

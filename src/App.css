@@ -2,6 +2,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
 h2 {
     font-size: 32px;
     font-weight: 700;
@@ -11,6 +20,7 @@ h3 {
     font-size: 16px;
     font-weight: 700;
 }
+
 
 
   

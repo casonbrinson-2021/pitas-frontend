@@ -1,0 +1,59 @@
+.sidebar-container {
+    background-color: #236E95;
+    min-width: 86px;
+    height: 100vh;
+    min-height: 500px;
+    position: relative;
+}
+
+.profile-img-container {
+    width: 45px;
+    height: 45px;
+    background-color: #c4c4c4;
+    border-radius: 45px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 18px;
+    margin: auto;
+}
+
+.side-btns {
+    height: 198px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 173px;
+    margin: auto;
+}
+.side-btn {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.logout-container {
+    width: fit-content;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 18px;
+    margin: auto;
+}
+.logout-btn {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.logout-btn:hover {
+    text-decoration: underline;
+}
+
